@@ -214,6 +214,9 @@ body {
   list-style: none;
   cursor: pointer;
 }
+.Dis-images {
+  display: block;
+}
 
 .container {
   width: 1200px;
@@ -308,7 +311,7 @@ body {
 }
 .portfolio-item {
   margin-bottom: 30px;
-  flex-basis: calc((100% - 60px) / 3);
+  flex-basis: calc((100% - 60px) / 9);
 }
 .portfolio-unit {
   padding-left: 24px;
