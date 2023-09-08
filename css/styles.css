@@ -16,6 +16,11 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-tex-color);
 }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 .iconpage {
   color: var(--accent-color);
   font-family: 'Raleway', sans-serif;
@@ -24,29 +29,34 @@ body {
   line-height: 1.15;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-right: 93px;
 }
 .link {
   text-decoration: none;
 }
-.navigationcentral .navigationpagelink {
+.navigationpagelink {
   font-weight: 500;
   line-height: 1.14;
   font-size: 14px;
   letter-spacing: 0.02em;
   color: var(--primary-tex-color);
 }
+.curren {
+  color: var(--accent-color);
+}
+
 .navigationcentral .navigationpagelink:hover {
   color: var(--accent-color);
 }
 .navigationcentral .navigationpagelink:focus {
   color: var(--accent-color);
 }
+
 /* .navigationcentral .navigationpagelink:active {
   color: var(--accent-color);
 } */
 .navigationlist {
-  list-style: none;
-  padding: 16px 0px;
+  padding: 32px 0px;
 }
 .directory .directorylink {
   color: var(--secondary-text-color);
@@ -63,8 +73,7 @@ body {
   color: var(--accent-color);
 }
 .directory-list {
-  list-style: none;
-  padding: 16px 0px;
+  padding: 32px 0px;
 }
 .section {
   margin-top: 94px;
@@ -113,18 +122,12 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
 }
-.about-services-item {
-  list-style: none;
-}
 .services .performance-images {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
-}
-.services-item {
-  list-style: none;
 }
 .teams {
   background-color: var(--second-background);
@@ -148,9 +151,6 @@ body {
   color: var(--secondary-text-color);
   letter-spacing: 0.03em;
   text-align: center;
-}
-.teams-item {
-  list-style: none;
 }
 .address-list .address {
   line-height: 1.71;
@@ -180,9 +180,6 @@ body {
 .address-list .address-down:focus {
   color: var(--accent-color);
 }
-.address-item {
-  list-style: none;
-}
 .address-information {
   background-color: var(--secondary-background-color);
 }
@@ -207,9 +204,6 @@ body {
   background-color: var(--accent-color);
   color: var(--third-text-color);
 }
-.button-item {
-  list-style: none;
-}
 .portfolio-list .projects-portfolio {
   color: var(--primary-tex-color);
   font-weight: 700;
@@ -223,7 +217,6 @@ body {
   letter-spacing: 0.03em;
 }
 .portfolio-item {
-  list-style: none;
   cursor: pointer;
 }
 .Dis-images {
@@ -259,9 +252,6 @@ body {
   justify-content: space-evenly;
   padding-top: 95px;
   gap: 30px;
-}
-.pad {
-  padding: 0px;
 }
 .services-list {
   display: flex;
